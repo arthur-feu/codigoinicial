@@ -6,7 +6,7 @@ function setup() {
   ctx.touchStarted(flip);
   
  background(2, 2, 2);
-   colorMode(RGB, 50); //cor + fade de movimentação (0 == parece o flash)
+   colorMode(RGB, 50); //cor + fade de movimentação (300+ == parece o flash)
    noStroke();
   	
 	translate(width/2, height/2); // posição de iniciamento das esferas == meio da janela
